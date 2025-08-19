@@ -1,17 +1,35 @@
 # Change Log
 
-## [1.0.3]
+## [1.0.4] – 2025-08-19
 
-- Updates to README
+Plugin creation workflow enhanced:
 
-## [1.0.2]
+Ask for plugin name.
 
-- Plugin generator
+Ask whether to create in workspace or choose a custom folder.
 
-## [1.0.1]
+If a custom folder is selected, optionally open it in VS Code after creation.
 
-- Auto reference
+Krita stubs integration improved:
 
-## [1.0.0]
+Prevent duplicate paths in .vscode/settings.json.
 
-- Initial release
+Automatically enable stubs when opening a Python file.
+
+Code reorganized into separate modules (commands/ and utils/) for better maintainability.
+
+## [1.0.3] – 2025-08-19
+
+Updates to README.
+
+## [1.0.2] – 2025-08-19
+
+Added plugin generator.
+
+## [1.0.1] – 2025-08-19
+
+Auto reference support for Krita API stubs.
+
+## [1.0.0] – 2025-08-19
+
+Initial release.

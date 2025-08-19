@@ -1,8 +1,8 @@
 {
-  "name": "@MCUnderground/kritaexec",
+  "name": "kritaexec",
   "displayName": "KritaExec",
   "description": "Krita API Support for VS Code",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "MCUnderground",
   "icon": "images/icon.png",
   "author": "MCUnderground",
