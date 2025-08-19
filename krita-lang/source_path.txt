@@ -1,0 +1,1 @@
+C:\Program Files\Krita (x64)\lib\krita-python-libs\PyKrita

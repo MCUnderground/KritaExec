@@ -1,0 +1,56 @@
+{
+  "name": "kritaexec",
+  "displayName": "KritaExec",
+  "description": "Krita API Support for VS Code",
+  "version": "1.0.1",
+  "publisher": "MCUnderground",
+  "icon": "images/icon.png",
+  "author": "MCUnderground",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/MCUnderground/kritaexec"
+  },
+  "bugs": {
+  "url": "https://github.com/MCUnderground/kritaexec/issues"
+  },
+  "homepage": "https://github.com/MCUnderground/kritaexec#readme",
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:python",
+    "onCommand:kritaexec.enableKritaStubs"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "kritaexec.createPlugin",
+        "title": "Scaffolds a krita plugin with automated builder."
+      },
+      {
+        "command": "kritaexec.enableKritaStubs",
+        "title": "Enable Krita API IntelliSense"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "kritaexec.enableKritaStubs",
+        "key": "ctrl+alt+k"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/node": "20.x",
+    "@types/vscode": "^1.60.0",
+    "typescript": "^5.8.3"
+  }
+}
