@@ -2,7 +2,7 @@
   "name": "kritaexec",
   "displayName": "KritaExec",
   "description": "Krita API Support for VS Code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "MCUnderground",
   "icon": "images/icon.png",
   "author": "MCUnderground",
@@ -40,6 +40,10 @@
       {
         "command": "kritaexec.enableKritaStubs",
         "key": "ctrl+alt+k"
+      },
+      {
+        "command": "kritaexec.createPlugin",
+        "key": "ctrl+alt+g"
       }
     ]
   },

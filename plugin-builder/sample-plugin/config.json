@@ -1,0 +1,7 @@
+{
+  "name": "SamplePlugin",
+  "version": "1.0.0",
+  "shortcut": "Ctrl+Alt+K",
+  "location": "Tools/",
+  "description": "This plugin is made for Krita using KritaExec."
+}
