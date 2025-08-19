@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.3]
+
+- Updates to README
+
 ## [1.0.2]
 
 - Plugin generator

@@ -41,10 +41,6 @@ class Loader(Extension):
                 match = current_menu.addMenu(part)
             current_menu = match
 
-            # Example usage
-            if is_submenu:
-                print(f"'{part}' is a submenu under '{parts[idx-1]}'")
-
 
         target_menu = current_menu if isinstance(current_menu, QMenu) else None
         if target_menu is None:
