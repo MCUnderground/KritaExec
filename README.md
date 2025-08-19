@@ -72,7 +72,7 @@ scaffold, including a pre-configured **builder script**.
 Inside your plugin folder, use the builder script:
 
 ``` powershell
-.\Runner\builder.cmd
+.\{PluginName}\builder.cmd
 ```
 
 -   Builds into a local `bin/` folder.
@@ -85,7 +85,7 @@ Inside your plugin folder, use the builder script:
 To build straight into Krita's plugin directory (on Windows):
 
 ``` powershell
-.\Runner\builder.cmd "%APPDATA%\krita"
+.\{PluginName}\builder.cmd "%APPDATA%\krita"
 ```
 
 > Works similarly on Linux and macOS --- just pass Krita's resource
